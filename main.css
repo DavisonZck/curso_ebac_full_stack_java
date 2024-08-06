@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #8600f3;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #8600f3;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-jogos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-fliperama,
+#jogos {
+    background-color: #f0ddff;
+}
+
+.text-colored {
+    color: #8600f3;
+}
+
+.nav-jogos .nav-link.active,
+#fale-conosco button {
+    background-color: #8600f3;
+    color: #fff;
+}
+
+.nav-jogos .nav-link:hover {
+    color: #8600f3;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
