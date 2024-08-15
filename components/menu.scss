@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+
+    li {
+    font-weight: $menu-font-weight;
+    margin-left: $menu-margin-left;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    }
+}

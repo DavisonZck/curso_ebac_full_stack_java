@@ -1,0 +1,29 @@
+@import 'base/variables';
+@import 'base/reset';
+@import 'layout/header';
+@import 'layout/container';
+@import 'components/menu';
+@import 'components/products';
+@import 'components/product-item';
+
+// Media Queries
+@media screen and (max-width: 1023px) {
+.container {
+    max-width: 80%;
+}
+
+.products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+}
+}
+
+@media screen and (max-width: 767px) {
+.products {
+    display: block;
+}
+
+.product-item {
+    margin-bottom: 32px;
+}
+}
